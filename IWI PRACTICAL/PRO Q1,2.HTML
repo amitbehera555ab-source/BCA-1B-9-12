@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Records Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: left;
+            font-weight: bold;
+        }
+
+        td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #e8f5e8;
+        }
+
+        .grade-A { color: #4CAF50; font-weight: bold; }
+        .grade-B { color: #2196F3; font-weight: bold; }
+        .grade-C { color: #FF9800; font-weight: bold; }
+        </style>
+    </head>
+    <body>
+        <h1>Rungta University - Student Records</h1>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Roll Number</th>
+                    <th>Name</th>
+                    <th>Course</th>
+                    <th>Marks</th>
+                    <th>Grade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>RUN001</td>
+                    <td>Priya Sharma</td>
+                    <td>BCA</td>
+                    <td>92</td>
+                    <td class="grade-A">A</td>
+                </tr>
+                <tr>
+                    <td>RUN002</td>
+                    <td>Rahul Patel</td>
+                    <td>BCA</td>
+                    <td>87</td>
+                    <td class="grade-B">B</td>
+                </tr>
+                <tr>
+                    <td>RUN003</td>
+                    <td>Ankit Verma</td>
+                    <td>BCA</td>
+                    <td>78</td>
+                    <td class="grade-B">B</td>
+                </tr>
+                <tr>
+                    <td>RUN004</td>
+                    <td>Neha Gupta</td>
+                    <td>BCA</td>
+                    <td>95</td>
+                    <td class="grade-A">A</td>
+                </tr>
+                <tr>
+                    <td>RUN005</td>
+                    <td>Vikash Singh</td>
+                    <td>BCA</td>
+                    <td>72</td>
+                    <td class="grade-C">C</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

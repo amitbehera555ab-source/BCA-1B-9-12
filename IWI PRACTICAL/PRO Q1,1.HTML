@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rungta University Link</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+
+        .image-container {
+            text-align: center;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            transition: transform 0.3s ease;
+        }
+
+        .image-container:hover {
+            transform: translateY(-5px);
+        }
+
+        .rungta-image {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 4px solid #fff;
+        }
+
+        .rungta-image:hover {
+            transform: scale(1.05);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+        }
+
+        h1 {
+            color: white;
+            margin-bottom: 20px;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .description {
+            color: white;
+            font-size: 1.2em;
+            margin-top: 15px;
+            max-width: 500px;
+            text-align: center;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <h1>Rungta University</h1>
+    
+    <div class="image-container">
+        <a href="https://www.rungta.ac.in" target="_blank">
+            <img src="https://rungta.ac.in/wp-content/uploads/2025/06/whatsapp-image-2025-06-05-at-33454-pm-1-68417f03f0cb0.webp"
+                 alt="Rungta University Campus" 
+                 class="rungta-image">
+        </a>
+    </div>
+
+    <p class="description">
+        Click the image to visit Rungta University's official website. 
+        Features modern campus, engineering programs, and industry partnerships.
+    </p>
+</body>
+</html>
