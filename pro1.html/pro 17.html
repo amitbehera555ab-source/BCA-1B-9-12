@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Listeners</title>
+    <script>
+        function showMessage() {
+            alert("Button clicked!");
+        }
+
+        function addEvent() {
+            document.getElementById("btn")
+                .addEventListener("click", showMessage);
+        }
+
+        function removeEvent() {
+            document.getElementById("btn")
+                .removeEventListener("click", showMessage);
+        }
+
+        window.onload = addEvent;
+    </script>
+</head>
+<body>
+
+    <h2>Event Listener Example</h2>
+
+    <button id="btn">Click Me</button>
+    <br><br>
+
+    <button onclick="removeEvent()">Remove Event</button>
+
+</body>
+</html>

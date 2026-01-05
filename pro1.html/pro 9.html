@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Responsive Web Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        /* Mobile-first design */
+        body {
+            font-family: Arial;
+            margin: 0;
+        }
+
+        .box {
+            padding: 2rem;
+            background-color: lightblue;
+            margin: 1rem;
+            text-align: center;
+        }
+
+        /* Tablet view */
+        @media (min-width: 600px) {
+            .box {
+                background-color: lightgreen;
+                font-size: 1.2rem;
+            }
+        }
+
+        /* Desktop view */
+        @media (min-width: 900px) {
+            .box {
+                background-color: lightcoral;
+                font-size: 1.5rem;
+                width: 50%;
+                margin: 2rem auto;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        Responsive Web Page using Media Queries
+    </div>
+
+</body>
+</html>

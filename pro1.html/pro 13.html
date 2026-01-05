@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Functions and Scope</title>
+    <script>
+        function showScope() {
+
+            var a = 10;     // function scope
+            let b = 20;     // block scope
+            const c = 30;   // constant
+
+            document.getElementById("out").innerHTML =
+                "var a = " + a + "<br>" +
+                "let b = " + b + "<br>" +
+                "const c = " + c;
+        }
+    </script>
+</head>
+<body>
+
+    <h2>User Defined Function & Scope</h2>
+
+    <button onclick="showScope()">Show Values</button>
+
+    <p id="out"></p>
+
+</body>
+</html>
